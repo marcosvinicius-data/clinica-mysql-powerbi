@@ -1,49 +1,106 @@
 # 📊 Clínica Data Analysis
 
-## 🛠️ Ferramentas utilizadas
+## 📝 Descrição
+
+Projeto de análise de dados de uma clínica médica utilizando MySQL para modelagem do banco de dados e Power BI para criação de dashboards interativos.
+
+O projeto simula um cenário real de negócio, permitindo analisar informações sobre pacientes, médicos, consultas, especialidades e faturamento.
+
+---
+
+## 🛠️ Tecnologias utilizadas
 
 * MySQL
 * Power BI
 
-## 📁 Sobre o projeto
-
-Este projeto tem como objetivo analisar dados de uma clínica médica, incluindo informações de pacientes, médicos, consultas e faturamento.
-
-Os dados foram modelados e manipulados utilizando MySQL e posteriormente importados para o Power BI, onde foi desenvolvido um dashboard interativo para análise dos dados.
+---
 
 ## 🔄 Pipeline de dados
 
 1. Criação do banco de dados no MySQL
-2. Inserção e organização dos dados
-3. Execução de consultas SQL para análise
-4. Importação dos dados no Power BI
-5. Construção do dashboard interativo
+2. Modelagem das tabelas (pacientes, médicos, consultas, etc.)
+3. Inserção e tratamento dos dados
+4. Consultas SQL para extração de informações
+5. Importação dos dados no Power BI
+6. Desenvolvimento do dashboard interativo
+
+---
 
 ## 📊 Análises realizadas
 
 * Quantidade de consultas por período
 * Médicos com maior número de atendimentos
 * Especialidades mais demandadas
-* Faturamento mensal da clínica
+* Pacientes mais frequentes
+* Distribuição por idade
+* Faturamento por cidade e funcionário
+* Horários com maior volume de consultas
+
+---
 
 ## 📸 Dashboard
 
-(Adicione aqui imagens do seu dashboard)
+### 📊 Visão Geral
+
+![Dashboard Geral](imagens/dashboard-geral.png)
+
+### 👨‍⚕️ Análise de Consultas
+
+![Consultas](imagens/analise-consultas.png)
+
+### 👥 Análise de Pacientes
+
+![Pacientes](imagens/analise-pacientes.png)
+
+### 📈 Indicadores
+
+![Indicadores](imagens/indicadores.png)
+
+---
+
+## 📁 Estrutura do projeto
+
+```
+clinica-data-analysis/
+│
+├── sql/
+│   ├── schema.sql
+│   ├── inserts.sql
+│   └── consultas.sql
+│
+├── powerbi/
+│   └── clinica.pbix
+│
+├── imagens/
+│   ├── dashboard-geral.png
+│   ├── analise-consultas.png
+│   ├── analise-pacientes.png
+│   └── indicadores.png
+│
+└── README.md
+```
+
+---
 
 ## 🎯 Objetivo
 
-Demonstrar habilidades em:
+Demonstrar habilidades práticas em:
 
 * Modelagem de dados
 * Consultas SQL
 * Análise de dados
-* Criação de dashboards
+* Criação de dashboards interativos
+
+---
 
 ## 🚀 Possíveis melhorias
 
-* Integração com Python para análise avançada
-* Automatização do processo de ETL
-* Criação de novos indicadores
+* Integração com Python para análise de dados
+* Automação do processo de ETL
+* Criação de novos indicadores e métricas
+* Aplicação de modelagem dimensional (Star Schema)
+
+---
 
 ## 👨‍💻 Autor
 
