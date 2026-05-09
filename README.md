@@ -40,21 +40,17 @@ O projeto simula um cenário real de negócio, permitindo analisar informações
 
 ## 📸 Dashboard
 
-### 📊 Visão Geral
 
-![Dashboard Geral](imagens/dashboard-geral.png)
+
+
 
 ### 👨‍⚕️ Análise de Consultas
 
 ![Consultas](imagens/analise-consultas.png)
 
-### 👥 Análise de Pacientes
 
-![Pacientes](imagens/analise-pacientes.png)
 
-### 📈 Indicadores
 
-![Indicadores](imagens/indicadores.png)
 
 ---
 
